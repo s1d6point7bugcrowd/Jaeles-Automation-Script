@@ -1,0 +1,2 @@
+subfinder -d target-domain | httpx -silent | anew | xargs -I@ jaeles scan -L 5 -c 20 -s ~/jaeles-signatures/* -u @ -o your-target_jaeles.txt
+
