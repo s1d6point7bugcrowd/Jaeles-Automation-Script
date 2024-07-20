@@ -93,8 +93,8 @@ https://sub1.example.com
 https://sub2.example.com
 
 Running Jaeles scans on live URLs...
-Running: jaeles scan -L 2 -c 20 -s /path/to/custom/signatures/* -u https://sub1.example.com -H "X-Bug-bounty: s1d6p01nt7@bugcrowd" -o example.com_jaeles_results.txt
-Running: jaeles scan -L 2 -c 20 -s /path/to/custom/signatures/* -u https://sub2.example.com -H "X-Bug-bounty: s1d6p01nt7@bugcrowd" -o example.com_jaeles_results.txt
+Running: jaeles scan -L 2 -c 20 -s /path/to/custom/signatures/* -u https://sub1.example.com -H "X-Bug-bounty: insert-username-here" -o example.com_jaeles_results.txt
+Running: jaeles scan -L 2 -c 20 -s /path/to/custom/signatures/* -u https://sub2.example.com -H "X-Bug-bounty:  insert-username-here" -o example.com_jaeles_results.txt
 
 Generating the Jaeles report...
 Scanning completed. Results saved to example.com_jaeles_results.txt and report generated at /home/kali/scanned/out.
